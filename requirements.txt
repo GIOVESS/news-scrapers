@@ -1,0 +1,4 @@
+schedule
+feedparser
+beautifulsoup4
+requests
