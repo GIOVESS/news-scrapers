@@ -9,12 +9,12 @@ import requests
 from bs4 import BeautifulSoup
 
 # ===== CONFIGURATION =====
-EMAIL_ADDRESS = "giovannibwayo@gmail.com"  # Your Gmail address
-EMAIL_PASSWORD = "xfgy cnrd suva raxv"    # Your Gmail app password 
+EMAIL_ADDRESS = "your.email@gmail.com"  # Your Gmail address
+EMAIL_PASSWORD = "your.gmail.app.password"    # Your Gmail app password 
 SMTP_SERVER = "smtp.gmail.com"
 SMTP_PORT = 587
-RECIPIENT_EMAIL = "giovannibwayo@gmail.com"
-MAX_TRENDS = 10  # Limit to top 10 trends
+RECIPIENT_EMAIL = "your.email@gmail.com"
+MAX_ARTICLES = 10  # Limit to top 10 articles
 
 # ===== INDUSTRY TRENDS SOURCES =====
 TREND_SOURCES = [
