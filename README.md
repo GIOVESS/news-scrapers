@@ -1,6 +1,3 @@
-# Simple README for News Scrapers
-
-```markdown
 # News Scrapers
 
 Automated news digest systems for AI, GIS, and Data Science trends.
@@ -67,8 +64,8 @@ pip install -r requirements.txt
    - Trigger: Daily at 8:00 AM
    - Action: Start a program
    - Program: `python`
-   - Arguments: `E:\PROJECT\news-scrapers\ai_gis_digest.py`
-   - Start in: `E:\PROJECT\news-scrapers`
+   - Arguments: `E:\news-scrapers\ai_gis_digest.py`
+   - Start in: `E:\news-scrapers`
 
 #### For Weekly Digest:
 1. Open Task Scheduler  
@@ -77,26 +74,9 @@ pip install -r requirements.txt
    - Trigger: Weekly on Mondays at 8:00 AM
    - Action: Start a program
    - Program: `python`
-   - Arguments: `E:\PROJECT\news-scrapers\weekly_trends_digest.py`
-   - Start in: `E:\PROJECT\news-scrapers`
+   - Arguments: `E:\news-scrapers\weekly_trends_digest.py`
+   - Start in: `E:\news-scrapers`
 
-### Method 2: Batch Files (Alternative)
-
-Create `start_daily.bat`:
-```batch
-@echo off
-cd /d "E:\PROJECT\news-scrapers"
-python ai_gis_digest.py
-```
-
-Create `start_weekly.bat`:
-```batch  
-@echo off
-cd /d "E:\PROJECT\news-scrapers"
-python weekly_trends_digest.py
-```
-
-Schedule these batch files using Task Scheduler.
 
 ##  Testing
 
@@ -120,7 +100,6 @@ news-scrapers/
 ├── weekly_trends_digest.py   # Weekly trends digest  
 ├── requirements.txt          # Python dependencies
 ├── README.md                # This file
-└── .gitignore              # Git ignore file
 ```
 
 ##  Troubleshooting
@@ -148,8 +127,7 @@ MIT License - feel free to use and modify for your needs.
 ---
 
 **Maintainer**: Giovanni Bwayo  
-**Portfolio**: giovannibwayo.site
-```
+**Portfolio**: https://giovannibwayo.site/
 
 ## Git Push Commands
 
