@@ -10,11 +10,11 @@ from bs4 import BeautifulSoup
 import re
 
 # ===== CONFIGURATION =====
-EMAIL_ADDRESS = "giovannibwayo@gmail.com"  # Your Gmail address
-EMAIL_PASSWORD = "xfgy cnrd suva raxv"    # Your Gmail app password 
+EMAIL_ADDRESS = "your.email@gmail.com"  # Your Gmail address
+EMAIL_PASSWORD = "your.gmail.app.password"    # Your Gmail app password 
 SMTP_SERVER = "smtp.gmail.com"
 SMTP_PORT = 587
-RECIPIENT_EMAIL = "giovannibwayo@gmail.com"
+RECIPIENT_EMAIL = "your.email@gmail.com"
 MAX_ARTICLES = 10  # Limit to top 10 articles
 
 # ===== FUNCTIONS =====
